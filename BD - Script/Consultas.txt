@@ -7,24 +7,24 @@
 --moneda(Considerar simbolo SOLES [PEN])
 --total
 
---select * from Comprobante
---select * from TipoComprobante
---select * from Moneda
---select * from ContratoAlquiler
+select * from Comprobante
+select * from TipoComprobante
+select * from Moneda
+select * from ContratoAlquiler
 
---select tc.nombre as Tipo,c.serie as Serie,c.numero as Numero,c.fecEmision as Fecha,
---       c.Saldo-c.pagado as Subtotal,0.18 as Impuesto,m.nombre as Moneda,
---	   c.total as Total
---from Comprobante c
---inner join TipoComprobante tc
---on
---c.idTipocbte=tc.idTipocbte
---inner join ContratoAlquiler ca
---on
---c.idContrato=ca.idContrato
---inner join Moneda m
---on
---ca.idMoneda=m.idMoneda
+select tc.nombre as Tipo,c.serie as Serie,c.numero as Numero,c.fecEmision as Fecha,
+       c.Saldo-c.pagado as Subtotal,0.18 as Impuesto,m.nombre as Moneda,
+	   c.total as Total
+from Comprobante c
+inner join TipoComprobante tc
+on
+c.idTipocbte=tc.idTipocbte
+inner join ContratoAlquiler ca
+on
+c.idContrato=ca.idContrato
+inner join Moneda m
+on
+ca.idMoneda=m.idMoneda
 
 --Codigo de concepto
 --descripcion de concepto
@@ -32,11 +32,11 @@
 --precio
 --subtotal
 
---select * from Concepto
---select * from ComprobanteConcepto
+select * from Concepto
+select * from ComprobanteConcepto
 
---select c.idConcepto,c.nombre,cc.importe as Precio, 
---from Concepto c
---inner join ComprobanteConcepto cc
---on
---c.idConcepto = cc.idConcepto
+select c.idConcepto,c.nombre,cc.importe as Precio 
+from Concepto c
+inner join ComprobanteConcepto cc
+on
+c.idConcepto = cc.idConcepto
