@@ -1,0 +1,9 @@
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\bin\Debug\TRABAJOGRUPAL.exe.config
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\bin\Debug\TRABAJOGRUPAL.exe
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\bin\Debug\TRABAJOGRUPAL.pdb
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.csprojResolveAssemblyReference.cache
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.Properties.Resources.resources
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.csproj.GenerateResource.Cache
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.exe
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.pdb
+C:\Users\USP\Desktop\Nueva carpeta\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.CLIENTE.resources
