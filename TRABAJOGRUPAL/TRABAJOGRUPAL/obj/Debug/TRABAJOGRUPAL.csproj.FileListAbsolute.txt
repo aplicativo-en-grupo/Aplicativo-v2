@@ -17,3 +17,13 @@ C:\Users\usuario\Source\Repos\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debu
 C:\Users\usuario\Source\Repos\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Source\Repos\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.exe
 C:\Users\usuario\Source\Repos\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.pdb
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\bin\Debug\TRABAJOGRUPAL.exe.config
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\bin\Debug\TRABAJOGRUPAL.exe
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\bin\Debug\TRABAJOGRUPAL.pdb
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.CLIENTE.resources
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.Properties.Resources.resources
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.exe
+C:\Users\usuario\Documents\GitHub\Aplicativo-v2\TRABAJOGRUPAL\TRABAJOGRUPAL\obj\Debug\TRABAJOGRUPAL.pdb

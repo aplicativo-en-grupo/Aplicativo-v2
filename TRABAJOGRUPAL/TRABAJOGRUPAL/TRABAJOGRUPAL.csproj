@@ -47,13 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Compro.cs" />
-    <Compile Include="Comprobante.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Comprobante.Designer.cs">
-      <DependentUpon>Comprobante.cs</DependentUpon>
-    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="CLIENTE.cs">
       <SubType>Form</SubType>
