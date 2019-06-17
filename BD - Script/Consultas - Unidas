@@ -2,6 +2,8 @@
 --Cliente: tipo documento, nro de documento, nombre y dirección
 --Comprobante - concepto: Codigo de concepto, descripcion de concepto, cantidad (1 por defecto), precio, subtotal.
 
+create procedure comprobantexclientexdetalle
+as
 select  --persona
 		tdi.nombre as TipoDocumento,p.nrodocu as NumDocumento,p.nombres as Nombre,dir.idUbigeo as Direccion_Ubigeo,
 		--cliente
