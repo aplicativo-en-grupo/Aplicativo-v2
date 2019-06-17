@@ -1,0 +1,37 @@
+--Comprobante: Tipo, serie, numero, fecha subtotal, impuesto, moneda (Considerar simbolo SOLES [PEN]) y total.
+--Cliente: tipo documento, nro de documento, nombre y dirección
+--Comprobante - concepto: Codigo de concepto, descripcion de concepto, cantidad (1 por defecto), precio, subtotal.
+
+select  --persona
+		tdi.nombre as TipoDocumento,p.nrodocu as NumDocumento,p.nombres as Nombre,dir.idUbigeo as Direccion_Ubigeo,
+		--cliente
+		tc.nombre as Tipo,c.serie as Serie,c.numero as Numero,c.fecEmision as Fecha,
+        c.Saldo-c.pagado as Subtotal,m.nombre as Moneda,
+	    c.total as Total,
+		--detalle
+		cpt.idConcepto as Codigo,cpt.nombre as Descripcion,cc.importe as Precio 
+from Persona p
+inner join tipoDocumentoIdentidad tdi
+on
+p.idtipodoide=tdi.idtipodoide
+inner join Direccion dir
+on
+dir.idPersona=p.idPersona
+inner join ContratoAlquiler ca
+on
+p.idPersona=ca.idPersona
+inner join Comprobante c
+on
+c.idContrato=ca.idContrato
+inner join TipoComprobante tc
+on
+c.idTipocbte=tc.idTipocbte
+inner join Moneda m
+on
+ca.idMoneda=m.idMoneda
+inner join ComprobanteConcepto cc
+on
+c.idComprobante=cc.idComprobante
+inner join Concepto cpt
+on
+cc.idConcepto=cpt.idConcepto
