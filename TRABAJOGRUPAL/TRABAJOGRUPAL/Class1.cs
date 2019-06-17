@@ -17,7 +17,7 @@ namespace TRABAJOGRUPAL
         public DataTable MOSTRARCLIENTE()
         {
 
-            SqlDataAdapter da = new SqlDataAdapter("mostrarCliente", CONEXION.con);
+            SqlDataAdapter da = new SqlDataAdapter("comprobantexclientexdetalle", CONEXION.con);
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
             DataTable dt = new DataTable();
             da.Fill(dt);

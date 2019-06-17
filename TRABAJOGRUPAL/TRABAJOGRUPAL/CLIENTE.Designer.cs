@@ -39,10 +39,10 @@
             this.dgv_cliente.AllowUserToAddRows = false;
             this.dgv_cliente.AllowUserToDeleteRows = false;
             this.dgv_cliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_cliente.Location = new System.Drawing.Point(27, 142);
+            this.dgv_cliente.Location = new System.Drawing.Point(27, 110);
             this.dgv_cliente.Name = "dgv_cliente";
             this.dgv_cliente.ReadOnly = true;
-            this.dgv_cliente.Size = new System.Drawing.Size(519, 176);
+            this.dgv_cliente.Size = new System.Drawing.Size(519, 285);
             this.dgv_cliente.TabIndex = 2;
             // 
             // dateTimePicker1
@@ -54,7 +54,7 @@
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(302, 60);
+            this.dateTimePicker2.Location = new System.Drawing.Point(332, 60);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(214, 20);
             this.dateTimePicker2.TabIndex = 4;
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 364);
+            this.ClientSize = new System.Drawing.Size(573, 427);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dgv_cliente);
