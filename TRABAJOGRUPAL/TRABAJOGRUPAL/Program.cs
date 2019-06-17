@@ -16,7 +16,7 @@ namespace TRABAJOGRUPAL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CLIENTE());
+            Application.Run(new Trabajo());
         }
     }
 }

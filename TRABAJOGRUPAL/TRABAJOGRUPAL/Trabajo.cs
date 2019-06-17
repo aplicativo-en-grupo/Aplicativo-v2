@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TRABAJOGRUPAL
 {
-    public partial class CLIENTE : Form
+    public partial class Trabajo : Form
     {
-        public CLIENTE()
+        public Trabajo()
         {
             InitializeComponent();
         }
