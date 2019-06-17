@@ -1,3 +1,27 @@
+ --tipo documento
+ --nro de documento
+ --nombre
+ --dirección
+
+select tdi.nombre as TipoDocumento,p.nrodocu as NumDocumento,p.nombres as Nombre,d.idUbigeo as Direccion_Ubigeo
+from Persona p
+inner join tipoDocumentoIdentidad tdi
+on
+p.idtipodoide=tdi.idtipodoide
+inner join Direccion d
+on
+d.idPersona=p.idPersona
+
+select tdi.nombre as TipoDocumento,p.nrodocu as NumDocumento,p.nombres as Nombre,d.idUbigeo as Direccion_Ubigeo
+from Persona p
+inner join tipoDocumentoIdentidad tdi
+on
+p.idtipodoide=tdi.idtipodoide
+inner join Direccion d
+on
+d.idPersona=p.idPersona
+
+
 --Tipo
 --serie
 --numero
@@ -13,7 +37,7 @@ select * from Moneda
 select * from ContratoAlquiler
 
 select tc.nombre as Tipo,c.serie as Serie,c.numero as Numero,c.fecEmision as Fecha,
-       c.Saldo-c.pagado as Subtotal,0.18 as Impuesto,m.nombre as Moneda,
+       c.Saldo-c.pagado as Subtotal,m.nombre as Moneda,
 	   c.total as Total
 from Comprobante c
 inner join TipoComprobante tc
@@ -34,8 +58,9 @@ ca.idMoneda=m.idMoneda
 
 select * from Concepto
 select * from ComprobanteConcepto
+select * from comprobante
 
-select c.idConcepto,c.nombre,cc.importe as Precio 
+select c.idConcepto as Codigo,c.nombre as Descripcion,cc.importe as Precio 
 from Concepto c
 inner join ComprobanteConcepto cc
 on
